@@ -1,0 +1,18 @@
+.cua{
+	position: absolute;
+	width: 40%;
+	height: 40%;
+	top: 20%;
+	left: 30%;
+	border: blue 20px double;
+}
+
+.muestra{
+	position: absolute;
+	left: 35%;
+	top: 40%;
+	width: 29%;
+	border: white 8px none;
+	text-align: center;
+	font-size: xx-large;
+}

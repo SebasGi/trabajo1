@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script >
+		x=11;
+	</script>
+	<title>TIEMPO</title>
+	<br><br><br><br>
+	<center><h1 class="titulo">TIEMPO</h1></center>
+	<link rel="stylesheet" type="text/css" href="es.css">
+</head>
+<body onload="primero()" >
+	<div class="cua"></div>
+		<center><input type="text" name="mostrar" id="mostrar" class="muestra"></center>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<center><button onclick="location.href='file:///C:/xampp/htdocs/nuevo/TAREA%204.html'">VOLVER</button></center>
+<script >
+	function cuarto(){
+			document.getElementById("mostrar").value="HASTA LUEGO";
+	}
+	function tercero(){
+			clearInterval(control2);
+	setTimeout(segundo,800);
+	}
+
+	function segundo(){
+				x=x-1;
+if(x>=0){
+console.log(x)
+	document.getElementById("mostrar").value=x;
+
+
+	    control2=setInterval(tercero,600);
+	}
+	else
+	{
+		
+
+ control4=setInterval(cuarto,0);
+	}
+}
+
+
+function primero(){
+		document.getElementById("mostrar").value="BUENAS";
+			setTimeout(segundo,800);
+}
+
+</script>
+
+</html>  
